@@ -38,7 +38,7 @@ const langCtrl = {
           { लिंग: { $regex: regex } },
           { व्याख्या: { $regex: regex } },
           { सन्दर्भ: { $regex: regex } },
-          { 'मराठी अर्थ': { $regex: regex } },
+          { मराठी_अर्थ: { $regex: regex } },
         ],
       });
 
